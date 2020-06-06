@@ -33,6 +33,7 @@ function addClickListeners() {
 }
 
 function startGame() {
+  startButton.style.display = 'none';
   addClickListeners();
   randomMole();
   setInterval(randomMole, 700);
