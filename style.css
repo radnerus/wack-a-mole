@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background   : linear-gradient(90deg, rgba(164, 172, 8, 1) 0%, rgba(147, 149, 17, 1) 50%, rgba(23, 167, 196, 1) 100%); */
+    background-image: linear-gradient(135deg, #ABDCFF 10%, #0396FF 100%);
+}
+
+.game {
+    width: 60vh;
+    height: 60vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.game .box {
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.mole {
+    background: url('mole.png');
+    background-size: cover;
+    background-position: center;
+    /* animation       : 1s move-up ease-in; */
+}
+
+
+/* @keyframes move-up {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 50% 0;
+    }
+} */
