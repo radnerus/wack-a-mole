@@ -16,6 +16,18 @@
     background-image: linear-gradient(135deg, #ABDCFF 10%, #0396FF 100%);
 }
 
+#start-button {
+    background-color: Black;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 h1 {
     position: absolute;
     top: 20px;
