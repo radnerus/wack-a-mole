@@ -47,6 +47,23 @@ h3 {
     /* animation       : 1s move-up ease-in; */
 }
 
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 10px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+}
+
+footer a:hover {
+    font-size: 16px;
+}
+
 @media only screen and (max-width: 600px) {
     .game {
         width: 60vw;
